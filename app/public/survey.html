@@ -1,9 +1,190 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Survey Time!</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  	<script src="https://code.jquery.com/jquery.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </head>
 <body>
-
+  <div class='container'>
+    <div class='jumbotron text-center'>
+      <h1>It's survey time!</h1>
+    </div>
+    <form action="http://localhost:8080" method="POST">
+    <div class="row">
+    	<div class="col-sm-2"></div>
+    		<div class="col-sm-8" style="background-color: #E50026">
+    		<h2>Who are you?<h3>...and what do you look like?</h3></h2>
+         	<input name="name" placeholder="Name">
+         	<input name="photo" placeholder="Photo">
+    		</div>
+    	<div class="col-sm-2"></div>
+    </div>
+    <div class="row">
+    	<div class="col-sm-2"></div>
+    		<div class="col-sm-8" style="background-color: #E5003C">
+    			<h3>Question 1</h3>
+    			<h4>Blah blah blah?  Blah Blah!</h4>
+				<select id="q1">
+  				<option value="1">Volvo</option>
+  				<option value="2">Saab</option>
+  				<option value="3">VW</option>
+  				<option value="4">Audi</option>
+  				<option value="5">Volkswagen</option>
+				</select>
+    		</div>
+    	<div class="col-sm-2"></div>
+    </div>
+    <div class="row">
+    	<div class="col-sm-2"></div>
+    		<div class="col-sm-8" style=" background-color: #DA0288">
+    			<h3>Question 2</h3>
+    			<h4>Blah blah blah?  Blah Blah!</h4>
+				<select id="q2">
+  				<option value="1">Volvo</option>
+  				<option value="2">Saab</option>
+  				<option value="3">VW</option>
+  				<option value="4">Audi</option>
+  				<option value="5">Volkswagen</option>
+				</select>
+    		</div>
+    	<div class="col-sm-2"></div>
+    </div>
+    <div class="row">
+    	<div class="col-sm-2"></div>
+    		<div class="col-sm-8" style=" background-color: #D005CB">
+    			<h3>Question 3</h3>
+    			<h4>Blah blah blah?  Blah Blah!</h4>
+				<select id="q3">
+  				<option value="1">Volvo</option>
+  				<option value="2">Saab</option>
+  				<option value="3">VW</option>
+  				<option value="4">Audi</option>
+  				<option value="5">Volkswagen</option>
+				</select>
+    		</div>
+    	<div class="col-sm-2"></div>
+    </div>
+    <div class="row">
+    	<div class="col-sm-2"></div>
+    		<div class="col-sm-8" style=" background-color: #8707C6">
+    			<h3>Question 4</h3>
+    			<h4>Blah blah blah?  Blah Blah!</h4>
+				<select id="q4">
+  				<option value="1">Volvo</option>
+  				<option value="2">Saab</option>
+  				<option value="3">VW</option>
+  				<option value="4">Audi</option>
+  				<option value="5">Volkswagen</option>
+				</select>
+    		</div>
+    	<div class="col-sm-2"></div>
+    </div>
+    <div class="row">
+    	<div class="col-sm-2"></div>
+    		<div class="col-sm-8" style="background-color: #4109BC">
+    			<h3>Question 5</h3>
+    			<h4>Blah blah blah?  Blah Blah!</h4>
+				<select id="q5">
+  				<option value="1">Volvo</option>
+  				<option value="2">Saab</option>
+  				<option value="3">VW</option>
+  				<option value="4">Audi</option>
+  				<option value="5">Volkswagen</option>
+				</select>
+    		</div>
+    	<div class="col-sm-2"></div>
+    </div>
+    <div class="row">
+    	<div class="col-sm-2"></div>
+    		<div class="col-sm-8" style="background-color: #0A11B2">
+    			<h3>Question 6</h3>
+    			<h4>Blah blah blah?  Blah Blah!</h4>
+				<select id="q6">
+  				<option value="1">Volvo</option>
+  				<option value="2">Saab</option>
+  				<option value="3">VW</option>
+  				<option value="4">Audi</option>
+  				<option value="5">Volkswagen</option>
+				</select>
+    		</div>
+    	<div class="col-sm-2"></div>
+    </div>
+    <div class="row">
+    	<div class="col-sm-2"></div>
+    		<div class="col-sm-8" style="background-color: #0C4AA8">
+    			<h3>Question 7</h3>
+    			<h4>Blah blah blah?  Blah Blah!</h4>
+				<select id="q7">
+  				<option value="1">Volvo</option>
+  				<option value="2">Saab</option>
+  				<option value="3">VW</option>
+  				<option value="4">Audi</option>
+  				<option value="5">Volkswagen</option>
+				</select>
+    		</div>
+    	<div class="col-sm-2"></div>
+    </div>
+    <div class="row">
+    	<div class="col-sm-2"></div>
+    		<div class="col-sm-8" style="background-color: #0D7A9E">
+    			<h3>Question 8</h3>
+    			<h4>Blah blah blah?  Blah Blah!</h4>
+				<select id="q8">
+  				<option value="1">Volvo</option>
+  				<option value="2">Saab</option>
+  				<option value="3">VW</option>
+  				<option value="4">Audi</option>
+  				<option value="5">Volkswagen</option>
+				</select>
+    		</div>
+    	<div class="col-sm-2"></div>
+    </div>
+    <div class="row">
+    	<div class="col-sm-2"></div>
+    		<div class="col-sm-8" style="background-color: #0E9485">
+    			<h3>Question 9</h3>
+    			<h4>Blah blah blah?  Blah Blah!</h4>
+				<select id="q9">
+  				<option value="1">Volvo</option>
+  				<option value="2">Saab</option>
+  				<option value="3">VW</option>
+  				<option value="4">Audi</option>
+  				<option value="5">Volkswagen</option>
+				</select>
+    		</div>
+    	<div class="col-sm-2"></div>
+    </div>
+    <div class="row">
+    	<div class="col-sm-2"></div>
+    		<div class="col-sm-8" style="background-color: #0F8A51">
+    			<h3>Question 10</h3>
+    			<h4>Blah blah blah?  Blah Blah!</h4>
+				<select id="q10">
+  				<option value="1">Volvo</option>
+  				<option value="2">Saab</option>
+  				<option value="3">VW</option>
+  				<option value="4">Audi</option>
+  				<option value="5">Volkswagen</option>
+				</select>
+    		</div>
+    	<div class="col-sm-2"></div>
+    </div>
+    <div class="row">
+    <div class="col-sm-2"></div>
+    <div class="col-sm-8" style="background-color: #157046">
+   	<button type='submit'>submit</button>    
+    </div>
+    <div class="col-sm-2"></div>
+    </div>
+   	</form>
+ 	</div>
+    <footer class="footer">
+      <div class="container">
+        <p><a href="/api/tables">API Friends</a> | <a href="https://github.com/Co-su/friendfinderHW">GitHub Repo</a></p>
+      </div>
+    </footer>
 </body>
 </html>
+
